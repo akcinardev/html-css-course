@@ -7,8 +7,13 @@ li {
   font-family: sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
 h1 {
-  color: blue;
   font-size: 30px;
   text-transform: uppercase;
   font-style: italic;
@@ -53,4 +58,35 @@ li {
 .related-author {
   font-size: 14px;
   font-weight: bold;
+}
+
+.main-header {
+  background-color: gainsboro;
+}
+
+aside {
+  background-color: gainsboro;
+  border-top: 6px solid #1098ad;
+  border-bottom: 6px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #066573;
+}
+
+a:active {
+  color: blue;
 }
