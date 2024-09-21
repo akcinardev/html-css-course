@@ -1,10 +1,38 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.main-header {
+  background-color: gainsboro;
+  padding: 15px 30px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+aside {
+  background-color: gainsboro;
+  border-top: 6px solid rgb(16, 152, 173);
+  border-bottom: 6px solid #1098ad;
+  padding: 50px 50px;
+  width: 500px;
 }
 
 h1,
@@ -21,10 +49,12 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -36,10 +66,22 @@ h4 {
 p {
   font-size: 19px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 19px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 #author {
@@ -58,16 +100,6 @@ li {
 .related-author {
   font-size: 14px;
   font-weight: bold;
-}
-
-.main-header {
-  background-color: gainsboro;
-}
-
-aside {
-  background-color: gainsboro;
-  border-top: 6px solid #1098ad;
-  border-bottom: 6px solid #1098ad;
 }
 
 li:first-child {
@@ -89,4 +121,9 @@ a:hover {
 
 a:active {
   color: blue;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
 }
